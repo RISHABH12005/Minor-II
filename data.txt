@@ -1,0 +1,22 @@
+
+| UID         | Name    |
+| ----------- | ------- |
+| 43 4F CB DC | Rishabh |
+| 53 68 A5 DD | Ranjan  |
+| E3 36 D9 FC | Rashmi  |
+| C3 D6 AF FC | Amit    |
+
+ESP32-C5 Auto connected To Hotspot
+----------------------
+WIFI_SSID "V30P"
+WIFI_PASS "Radon~190"
+----------------------
+
+ESP32-C5 Open WiFi upto Max 10
+-------------------
+AP_SSID "RFID"
+AP_PASS "12345678"
+-------------------
+
+Give the scaned name data through WiFi those who is connected with the ESP32-C5
+
