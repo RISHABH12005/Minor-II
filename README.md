@@ -236,7 +236,7 @@ The `rfid_log.txt` file stores RFID scan log output from development runs.
 
 ## Documentation
 
-- Presentation: https://drive.google.com/file/d/1VYhW8kcW-5wvunkjKbBngO6sQuGzRvwz/view?usp=drive_link
+- [Presentation](https://drive.google.com/file/d/1VYhW8kcW-5wvunkjKbBngO6sQuGzRvwz/view?usp=drive_link)
 
 ## License
 
