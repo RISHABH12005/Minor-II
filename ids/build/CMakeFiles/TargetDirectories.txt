@@ -793,13 +793,6 @@ D:/Espressif/project/ids/build/esp-idf/json/CMakeFiles/list_install_components.d
 D:/Espressif/project/ids/build/esp-idf/json/CMakeFiles/install.dir
 D:/Espressif/project/ids/build/esp-idf/json/CMakeFiles/install/local.dir
 D:/Espressif/project/ids/build/esp-idf/json/CMakeFiles/install/strip.dir
-D:/Espressif/project/ids/build/esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir
-D:/Espressif/project/ids/build/esp-idf/mqtt/CMakeFiles/edit_cache.dir
-D:/Espressif/project/ids/build/esp-idf/mqtt/CMakeFiles/rebuild_cache.dir
-D:/Espressif/project/ids/build/esp-idf/mqtt/CMakeFiles/list_install_components.dir
-D:/Espressif/project/ids/build/esp-idf/mqtt/CMakeFiles/install.dir
-D:/Espressif/project/ids/build/esp-idf/mqtt/CMakeFiles/install/local.dir
-D:/Espressif/project/ids/build/esp-idf/mqtt/CMakeFiles/install/strip.dir
 D:/Espressif/project/ids/build/esp-idf/nvs_sec_provider/CMakeFiles/__idf_nvs_sec_provider.dir
 D:/Espressif/project/ids/build/esp-idf/nvs_sec_provider/CMakeFiles/edit_cache.dir
 D:/Espressif/project/ids/build/esp-idf/nvs_sec_provider/CMakeFiles/rebuild_cache.dir
@@ -846,6 +839,13 @@ D:/Espressif/project/ids/build/esp-idf/wifi_provisioning/CMakeFiles/list_install
 D:/Espressif/project/ids/build/esp-idf/wifi_provisioning/CMakeFiles/install.dir
 D:/Espressif/project/ids/build/esp-idf/wifi_provisioning/CMakeFiles/install/local.dir
 D:/Espressif/project/ids/build/esp-idf/wifi_provisioning/CMakeFiles/install/strip.dir
+D:/Espressif/project/ids/build/esp-idf/espressif__mqtt/CMakeFiles/__idf_espressif__mqtt.dir
+D:/Espressif/project/ids/build/esp-idf/espressif__mqtt/CMakeFiles/edit_cache.dir
+D:/Espressif/project/ids/build/esp-idf/espressif__mqtt/CMakeFiles/rebuild_cache.dir
+D:/Espressif/project/ids/build/esp-idf/espressif__mqtt/CMakeFiles/list_install_components.dir
+D:/Espressif/project/ids/build/esp-idf/espressif__mqtt/CMakeFiles/install.dir
+D:/Espressif/project/ids/build/esp-idf/espressif__mqtt/CMakeFiles/install/local.dir
+D:/Espressif/project/ids/build/esp-idf/espressif__mqtt/CMakeFiles/install/strip.dir
 D:/Espressif/project/ids/build/esp-idf/main/CMakeFiles/__idf_main.dir
 D:/Espressif/project/ids/build/esp-idf/main/CMakeFiles/edit_cache.dir
 D:/Espressif/project/ids/build/esp-idf/main/CMakeFiles/rebuild_cache.dir

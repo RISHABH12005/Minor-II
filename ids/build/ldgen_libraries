@@ -156,10 +156,11 @@ D:/Espressif/project/ids/build/esp-idf/fatfs/libfatfs.a
 D:/Espressif/project/ids/build/esp-idf/wear_levelling/libwear_levelling.a
 D:/Espressif/project/ids/build/esp-idf/ieee802154/libieee802154.a
 D:/Espressif/project/ids/build/esp-idf/json/libjson.a
-D:/Espressif/project/ids/build/esp-idf/mqtt/libmqtt.a
 D:/Espressif/project/ids/build/esp-idf/nvs_sec_provider/libnvs_sec_provider.a
 D:/Espressif/project/ids/build/esp-idf/rt/librt.a
 D:/Espressif/project/ids/build/esp-idf/spiffs/libspiffs.a
 D:/Espressif/project/ids/build/esp-idf/wifi_provisioning/libwifi_provisioning.a
 D:/Espressif/project/ids/build/esp-idf/json/libjson.a
+D:/Espressif/project/ids/build/esp-idf/espressif__mqtt/libespressif__mqtt.a
 D:/Espressif/project/ids/build/esp-idf/main/libmain.a
+D:/Espressif/project/ids/build/esp-idf/espressif__mqtt/libespressif__mqtt.a
