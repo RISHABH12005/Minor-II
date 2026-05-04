@@ -1750,25 +1750,6 @@ rule C_STATIC_LIBRARY_LINKER____idf_json_
 #############################################
 # Rule for compiling C files.
 
-rule C_COMPILER____idf_mqtt_unscanned_
-  depfile = $DEP_FILE
-  deps = gcc
-  command = ccache ${LAUNCHER}${CODE_CHECK}D:\Espressif\tools\riscv32-esp-elf\esp-14.2.0_20251107\riscv32-esp-elf\bin\riscv32-esp-elf-gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
-  description = Building C object $out
-
-
-#############################################
-# Rule for linking C static library.
-
-rule C_STATIC_LIBRARY_LINKER____idf_mqtt_
-  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && D:\Espressif\tools\cmake\3.30.2\bin\cmake.exe -E rm -f $TARGET_FILE && D:\Espressif\tools\riscv32-esp-elf\esp-14.2.0_20251107\riscv32-esp-elf\bin\riscv32-esp-elf-ar.exe qc $TARGET_FILE $LINK_FLAGS $in && D:\Espressif\tools\riscv32-esp-elf\esp-14.2.0_20251107\riscv32-esp-elf\bin\riscv32-esp-elf-ranlib.exe $TARGET_FILE && $POST_BUILD"
-  description = Linking C static library $TARGET_FILE
-  restat = $RESTAT
-
-
-#############################################
-# Rule for compiling C files.
-
 rule C_COMPILER____idf_nvs_sec_provider_unscanned_
   depfile = $DEP_FILE
   deps = gcc
@@ -1837,6 +1818,25 @@ rule C_COMPILER____idf_wifi_provisioning_unscanned_
 # Rule for linking C static library.
 
 rule C_STATIC_LIBRARY_LINKER____idf_wifi_provisioning_
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && D:\Espressif\tools\cmake\3.30.2\bin\cmake.exe -E rm -f $TARGET_FILE && D:\Espressif\tools\riscv32-esp-elf\esp-14.2.0_20251107\riscv32-esp-elf\bin\riscv32-esp-elf-ar.exe qc $TARGET_FILE $LINK_FLAGS $in && D:\Espressif\tools\riscv32-esp-elf\esp-14.2.0_20251107\riscv32-esp-elf\bin\riscv32-esp-elf-ranlib.exe $TARGET_FILE && $POST_BUILD"
+  description = Linking C static library $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling C files.
+
+rule C_COMPILER____idf_espressif__mqtt_unscanned_
+  depfile = $DEP_FILE
+  deps = gcc
+  command = ccache ${LAUNCHER}${CODE_CHECK}D:\Espressif\tools\riscv32-esp-elf\esp-14.2.0_20251107\riscv32-esp-elf\bin\riscv32-esp-elf-gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building C object $out
+
+
+#############################################
+# Rule for linking C static library.
+
+rule C_STATIC_LIBRARY_LINKER____idf_espressif__mqtt_
   command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && D:\Espressif\tools\cmake\3.30.2\bin\cmake.exe -E rm -f $TARGET_FILE && D:\Espressif\tools\riscv32-esp-elf\esp-14.2.0_20251107\riscv32-esp-elf\bin\riscv32-esp-elf-ar.exe qc $TARGET_FILE $LINK_FLAGS $in && D:\Espressif\tools\riscv32-esp-elf\esp-14.2.0_20251107\riscv32-esp-elf\bin\riscv32-esp-elf-ranlib.exe $TARGET_FILE && $POST_BUILD"
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
