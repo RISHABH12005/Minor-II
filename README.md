@@ -51,14 +51,17 @@ The firmware scans RFID cards, checks each UID against the allowed user list, pu
 |   |-- CMakeLists.txt
 |   |-- dependencies.lock
 |   `-- sdkconfig
-|-- report/
+|-- doc/
+|    |-- report.pdf
+|    `-- slide.pdf
 |-- run/
 |   |-- esp32-c5.ps1
 |   `-- mosquitto.ps1
 |-- test/
 |   `-- esp32-c5/
 |-- ui/
-|   `-- telegram.py
+|   |-- telegram.py
+|   `-- img
 |-- LICENSE
 |-- README.md
 |-- project-rishabh.bundle
