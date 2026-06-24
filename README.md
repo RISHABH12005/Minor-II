@@ -1,4 +1,4 @@
-# IoT Intrusion Detection System
+# Intrusion Detection System using IoT System
 
 An ESP32-C5 based intrusion detection system that uses an RC522 RFID reader, WiFi client monitoring, MQTT messaging, and a Telegram control interface.
 
